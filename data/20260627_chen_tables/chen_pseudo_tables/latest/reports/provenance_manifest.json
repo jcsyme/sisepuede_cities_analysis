@@ -1,0 +1,32 @@
+{
+  "generated_at_utc": "2026-06-27T06:56:36.659456+00:00",
+  "run_label": "latest",
+  "output_root": "/home/lain/Documents/nu-afolu/outputs/chen_pseudo_tables/latest",
+  "artifact_status": "written",
+  "methods": [
+    "historical_shares",
+    "availability_constrained",
+    "priority_ranking"
+  ],
+  "ssps": [
+    "SSP1",
+    "SSP2",
+    "SSP3",
+    "SSP4",
+    "SSP5"
+  ],
+  "zone_count": 69,
+  "baseline_choice": "glc_2020_settlements",
+  "calibration_choice": "glc_2020_plus_clipped_chen_deltas",
+  "negative_delta_policy": "clip_to_zero_and_record",
+  "interval_semantics": "decadal_start_year",
+  "validation_tolerance_m2": 1.0,
+  "all_validation_passed": true,
+  "artifact_count": 1035,
+  "report_files": {
+    "allocation_interval_report": "/home/lain/Documents/nu-afolu/outputs/chen_pseudo_tables/latest/reports/allocation_interval_report.parquet",
+    "allocation_source_report": "/home/lain/Documents/nu-afolu/outputs/chen_pseudo_tables/latest/reports/allocation_source_report.parquet",
+    "validation_report": "/home/lain/Documents/nu-afolu/outputs/chen_pseudo_tables/latest/reports/validation_report.parquet",
+    "saved_artifact_index": "/home/lain/Documents/nu-afolu/outputs/chen_pseudo_tables/latest/reports/saved_artifact_index.parquet"
+  }
+}
